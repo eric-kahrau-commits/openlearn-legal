@@ -6,41 +6,60 @@
     <title>Über OpenLearn</title>
     <style>
         body { font-family: -apple-system, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; color: #1a1a1a; line-height: 1.6; }
-        h1 { color: #7C3AED; }
-        h2 { margin-top: 32px; color: #333; }
-        .card { background: #f5f0ff; border-radius: 12px; padding: 20px 24px; margin: 20px 0; border-left: 4px solid #7C3AED; }
-        .badge { display: inline-block; background: #7C3AED; color: white; font-size: 0.8em; padding: 4px 10px; border-radius: 20px; margin: 4px 4px 4px 0; }
+        h1 { color: #7C3AED; } h2 { margin-top: 32px; color: #333; }
         a { color: #7C3AED; }
+        .note { background: #f5f0ff; padding: 12px 16px; border-radius: 8px; font-size: 0.9em; margin: 16px 0; }
+        .feature { display: flex; gap: 12px; align-items: flex-start; margin: 12px 0; }
+        .feature-icon { font-size: 1.5em; flex-shrink: 0; }
+        .version { background: #f5f0ff; border-radius: 8px; padding: 16px; display: inline-block; margin: 16px 0; }
+        .version strong { color: #7C3AED; }
     </style>
 </head>
 <body>
     <h1>Über OpenLearn</h1>
 
-    <div class="card">
-        <strong>OpenLearn</strong> ist eine kostenlose iOS-Lern-App, die Schülerinnen und Schülern hilft, effizienter und smarter zu lernen – mit KI-Unterstützung, Karteikarten, Lernplänen und mehr.
+    <div class="note">
+        OpenLearn ist eine KI-gestützte Lern-App für Schüler, entwickelt von einem Schüler — für Schüler.
     </div>
 
-    <h2>Was OpenLearn kann</h2>
-    <p>
-        <span class="badge">📚 Karteikarten</span>
-        <span class="badge">🤖 KI-Erstellung</span>
-        <span class="badge">📅 Termine</span>
-        <span class="badge">🔥 Streak-System</span>
-        <span class="badge">📊 Statistiken</span>
-        <span class="badge">🎯 Lernpläne</span>
-        <span class="badge">📷 Scanner</span>
-        <span class="badge">🧠 Vokabeln</span>
-    </p>
+    <h2>Die App</h2>
+    <p>OpenLearn hilft Schülerinnen und Schülern dabei, effizienter und smarter zu lernen. Mithilfe moderner KI-Technologie werden Lerninhalte personalisiert, erklärt und bewertet — damit jede Minute Lernzeit zählt.</p>
 
-    <h2>Unser Ziel</h2>
-    <p>Lernen soll Spaß machen und nicht wie Arbeit anfühlen. OpenLearn kombiniert bewährte Lernmethoden mit moderner KI, damit jeder sein volles Potenzial entfalten kann – egal ob Grundschule oder Abitur.</p>
+    <h2>Features</h2>
+    <div class="feature"><span class="feature-icon">🃏</span><div><strong>Karteikarten</strong> – Erstelle Lernsets manuell, per KI oder durch Scannen von Notizen</div></div>
+    <div class="feature"><span class="feature-icon">🤖</span><div><strong>KI-Lernmodi</strong> – Karteikarten, Schnelllern, Auswendiglernen, KI-Fragen, Video und Lernpfad</div></div>
+    <div class="feature"><span class="feature-icon">📅</span><div><strong>Lernplan</strong> – Automatisch generierter Lernplan mit visuellem Fortschrittspfad</div></div>
+    <div class="feature"><span class="feature-icon">💬</span><div><strong>Lernbegleiter</strong> – KI-Assistent mit persönlichem Gedächtnis für individuelle Begleitung</div></div>
+    <div class="feature"><span class="feature-icon">📊</span><div><strong>Statistiken</strong> – Detaillierte Auswertung deiner Lernfortschritte</div></div>
+    <div class="feature"><span class="feature-icon">🎮</span><div><strong>Spiele & Streak</strong> – Lernspiele, XP-System und Streak-Tracker für Motivation</div></div>
+    <div class="feature"><span class="feature-icon">📚</span><div><strong>Fachbegriffe</strong> – KI-gestützte Erklärungen für über 20 Schulfächer</div></div>
+
+    <h2>Technologie</h2>
+    <p>OpenLearn nutzt:</p>
+    <ul>
+        <li><strong>Claude (Anthropic)</strong> – für KI-Lernfunktionen, Chat und Inhalte</li>
+        <li><strong>GPT-4o mini (OpenAI)</strong> – für Video-Lernfunktionen</li>
+        <li><strong>Firebase (Google)</strong> – für sichere Datenspeicherung und Authentifizierung</li>
+        <li><strong>SwiftUI</strong> – native iOS-App</li>
+    </ul>
 
     <h2>Entwickler</h2>
-    <p>OpenLearn wurde von <strong>Eric Kahrau</strong> entwickelt – mit viel Leidenschaft für gutes Design und sinnvolle Technologie.</p>
+    <p>OpenLearn wurde von <strong>Eric Kahrau</strong> entwickelt — als Schüler, der selbst täglich lernt und die Frustration über ineffektive Lernmethoden kannte.</p>
+    <p>Kontakt: <a href="mailto:openlearn.kundenservice-eric-25@web.de">openlearn.kundenservice-eric-25@web.de</a></p>
 
-    <h2>Kontakt & Feedback</h2>
-    <p>Fragen, Ideen oder Bugs? Schreib uns: <a href="mailto:openlearn.kundenservice-eric-25@web.de">openlearn.kundenservice-eric-25@web.de</a></p>
+    <div class="version">
+        <strong>Version 1.0</strong> · Mai 2026<br>
+        <span style="font-size:0.9em; color:#666;">Bundle ID: com.eric.OpenLearn</span>
+    </div>
 
-    <p style="margin-top: 40px; color: #888; font-size: 0.85em;">Version 1.0 · © 2025–2026 Eric Kahrau</p>
+    <h2>Open Source & Lizenzen</h2>
+    <p>OpenLearn verwendet Open-Source-Bibliotheken. Eine vollständige Liste findest du unter <a href="lizenzen.html">Lizenzen</a>.</p>
+
+    <h2>Rechtliches</h2>
+    <p>
+        <a href="datenschutz.html">Datenschutzerklärung</a> ·
+        <a href="agb.html">Nutzungsbedingungen</a> ·
+        <a href="impressum.html">Impressum</a>
+    </p>
 </body>
 </html>
